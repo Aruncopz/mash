@@ -20,6 +20,5 @@ export const appConfig: ApplicationConfig = {
       initializeApp(environment.firebaseConfig)
     ),
     provideAuth(() => getAuth()),
-    provideFirestore(() => getFirestore()), provideFirebaseApp(() => initializeApp({"projectId":"mash-birth-19d92","appId":"1:952764045116:web:399c71634a881de13e7039","storageBucket":"mash-birth-19d92.appspot.com","apiKey":"AIzaSyBBOdlsUF9_MHm8OFJcFQ1voDGI0IION-w","authDomain":"mash-birth-19d92.firebaseapp.com","messagingSenderId":"952764045116","measurementId":"G-R0Z0TEGSVH"})), provideAuth(() => getAuth()), provideFirestore(() => getFirestore()), provideFirebaseApp(() => initializeApp({"projectId":"mash-birth-19d92","appId":"1:952764045116:web:399c71634a881de13e7039","storageBucket":"mash-birth-19d92.appspot.com","apiKey":"AIzaSyBBOdlsUF9_MHm8OFJcFQ1voDGI0IION-w","authDomain":"mash-birth-19d92.firebaseapp.com","messagingSenderId":"952764045116","measurementId":"G-R0Z0TEGSVH"})), provideAuth(() => getAuth()), provideFirestore(() => getFirestore()), provideDatabase(() => getDatabase()), provideStorage(() => getStorage()), provideVertexAI(() => getVertexAI()),
   ],
 };
